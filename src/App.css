@@ -1,0 +1,74 @@
+.productListBackGround{
+    background-color: #FAF0E6;
+}
+
+.favoritesBackGround{
+    background-color: #E0FFFF;
+}
+
+body{
+    background-color: #FAF0E6;
+}
+
+.title{
+
+    font-weight: thin;
+    color: #87CEEB;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.3rem;
+}
+
+
+    bottom:hover {
+      
+    }
+
+
+    .reseña{
+        background-color: #008080;
+        color: white;
+        font-weight: bold;
+
+    }
+
+    .reseña2{
+        background-color: white;
+        color: #008080;
+        font-weight: bold;
+        border-color: #008080;
+    }
+
+    /* .reseña:active{
+        background-color: #00CED1;
+        color: white;
+        font-weight: bold;
+    } */
+
+    .reseñaForm{
+
+    }
+        
+
+    .reseñaForm:focus{
+       
+        border-color: red;
+        
+    }
+
+.shadow:hover {
+    background-color: red;
+    padding: 20px;
+    box-shadow:
+      inset 0 -3em 3em rgba(0, 0, 0, 0.1),
+      0 0 0 2px rgb(255, 255, 255),
+      0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+  }
+
+
+  .simple-linear {
+    background: linear-gradient(rgb(213, 252, 252), white);
+  }
+
+  .imgZoom:hover {
+    transition: transform .2s; /* Animation */
+  }
